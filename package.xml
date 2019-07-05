@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>mbot_perception_msgs</name>
+  <version>1.0.0</version>
+  <description>Common mbot perception messages</description>
+
+  <maintainer email="enrico.piazza@polimi.it">Enrico Piazza</maintainer>
+
+  <license>GPLv3</license>
+
+  <author email="tiagojdias@tecnico.ulisboa.pt">Tiago Dias</author>
+  <author email="guilherme.lawless@tecnico.ulisboa.pt">Guilherme Lawless</author>
+  <author email="enrico.piazza@polimi.it">Enrico Piazza</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>
