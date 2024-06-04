@@ -22,6 +22,7 @@ add_message_files(
   MappedObject3DList.msg
   RecognizedObjectWithId3D.msg
   RecognizedObjectWithId3DList.msg
+  TrackPerson.msg
 )
 
 add_service_files(
