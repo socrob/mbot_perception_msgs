@@ -20,6 +20,8 @@ add_message_files(
   TrackedObject3DList.msg
   MappedObject3D.msg
   MappedObject3DList.msg
+  RecognizedObjectWithId3D.msg
+  RecognizedObjectWithId3DList.msg
 )
 
 add_service_files(
